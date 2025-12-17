@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#character-grid .character {
+  width: 70px;
+  height: 70px;
+  background-color: #6c757d;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+#character-grid .character:hover {
+  transform: scale(1.1);
+  border-color: #0d6efd;
+}
+
+#character-grid .selected {
+  border-color: #ffc107;
+  box-shadow: 0 0 10px #ffc107;
+}
+
+#startBtn {
+  transition: transform 0.1s;
+}
+
+#startBtn:active {
+  transform: scale(0.95);
+}
